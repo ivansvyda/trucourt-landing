@@ -12,6 +12,7 @@ const config: Config = {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
         primary: 'var(--primary)',
+        beige_light: 'var(--beige-light)',
         beige: 'var(--beige)',
         green: 'var(--green)',
         orange: 'var(--orange)',

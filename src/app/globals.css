@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --background: #F0EFEA;
+  --background: #ffffff;
   --foreground: #171717;
   --primary: #00423D;
+  --beige-light: #F0EFEA;
   --beige: #98916D;
   --green: #415C41;
   --orange: #B9704A;
@@ -21,4 +22,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.container {
+  @apply max-w-6xl mx-auto;
 }

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const Header = () => {
   return (
-    <header className='max-w-7xl mx-auto py-10'>
+    <header className='container py-10'>
       <nav className='flex justify-between items-center'>
         <Link href='/' className='font-bold text-3xl tracking-tighter'>
           TruCourt
